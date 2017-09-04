@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700');
+
+:root{
+  --red: #FF665E;
+  --blue: #79ECF2;
+  --dark-blue: #52D9E8;
+}
+
+body{
+  font-family: 'Comfortaa', cursive;  
+}
+
+p {
+  margin: 0 !important;
+  padding: 5px 0;
+}
+
+blockquote{
+  font-style: italic;
+}
+
+iframe{
+  margin: 0 auto;
+  display: block;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.embed-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section{
+  min-height: 90vh;
+  background-size: cover;
+}
+
+section:nth-child(odd){
+  background-color: var(--red);
+  color: #ffffff;
+}
+
+section:nth-child(even){
+  background-color: var(--blue);
+  color: #333333;
+}
+
+footer{
+  min-height: 50px;
+  background-color: var(--dark-blue);
+}
+
+footer a{
+  display: block;
+  margin: 20px auto; 
+}
+
+a:hover, a:focus, a:active, a{
+  text-decoration: none;
+}
+
+#jugar{
+  background-image: url('../img/rn-bg.png');
+}
+
+.col-md-6{
+  padding-top: 2%;
+}
+
+#cta{
+  margin: 25% auto 0;
+  display: block;
+  width: 50%;
+  border-radius: 20px;
+  border-color: white;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #333333;
+  background-color: var(--blue);
+  -webkit-transition: all 0.5s; 
+  transition: all 0.5s;
+}
+
+#cta:hover{
+  background-color: var(--dark-blue);
+  color: #ffffff;
+}
+
+#historia-amidi{
+  background-image: url('../img/sea-bg.png');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.text {
+  display: block;
+  margin: 0 auto;
+  padding-top: 2%; 
+  max-width: 60%;
+  font-size: 18px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.big-img{
+  max-height: 80vh;
+  margin: 0 auto 20px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.fa{
+  margin-right: 5px;
+}
